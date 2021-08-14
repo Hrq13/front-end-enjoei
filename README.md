@@ -5,7 +5,7 @@
 <h3>
 Gostei bastante deste projeto e achei que o desenvolvimento fluiu bem tranquilo, apenas tive alguma complicação na parte de paginação por não ter tanta familiaridade ainda com o GraphQL, inclusive já estou decidido a estudar mais sobre. 😆
 
-Fora isso, ele está todo responsivo e diria que quase idêntico ao projeto original.
+Fora isso, ele está todo responsivo e também tomei cuidados com acessibilidade. Diria que quase idêntico ao projeto original.
 
 
 Neste case eu tentei usar apenas o básico (HTML, CSS e JS) para fazer o máximo possível
