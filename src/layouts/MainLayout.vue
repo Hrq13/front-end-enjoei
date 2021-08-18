@@ -5,9 +5,9 @@
         <img class="header__logo" src="@/assets/enjoei-logo.svg" alt="Letra E do logo da Enjoei"/>
       </a>
     </header>
-    <body id="body">
+    <main id="main">
       <RouterView/>
-    </body>
+    </main>
   </div>
 </template>
 vue.<script>
@@ -30,7 +30,7 @@ header {
   margin: auto;
 }
 
-#body {
+#main {
   width: 90vw;
   margin: 1em auto;
 }
