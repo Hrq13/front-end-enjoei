@@ -16,7 +16,6 @@
           limpar busca
         </button>
         <span class="query-span">
-          <label class="ac" for="queryInput">digite sua busca</label>
           <input
             id="queryInput"
             ref="query"
@@ -24,6 +23,7 @@
             type="text"
             placeholder="buscar"
             v-model="term"
+            aria-label="digite o produto que busca aqui"
           >
           <span class="queryIcon" aria-label="buscar" @click="fetchData()"></span>
         </span>
@@ -49,7 +49,7 @@
         <button
           id="previous-page"
           class="previous-page"
-          aria-label="ir para página página anterior"
+          aria-label="ir para página anterior"
           @click="currentPage > 0 && displayPreviousPage()"
           :disabled="currentPage === 0"
         >
@@ -149,14 +149,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.ac {
-  width: 0;
-  height: 0;
-  font-size: 0;
-  color: transparent;
-  opacity: 0;
-}
-
 .search-bar {
   display: flex;
   justify-content: space-between;

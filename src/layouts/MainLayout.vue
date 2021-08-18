@@ -1,8 +1,8 @@
 <template>
   <div>
     <header id="header">
-      <a class="header__link" href="https://www.enjoei.com.br/" target="_blank" aria-label="link para a página inicial da Enjoei">
-        <img class="header__logo" src="@/assets/enjoei-logo.svg" alt="Letra E do logo da Enjoei"/>
+      <a class="header__link" href="https://www.enjoei.com.br/" target="_blank" aria-label="Logo E da Enjoei e link para página oficial">
+        <img class="header__logo" src="@/assets/enjoei-logo.svg" />
       </a>
     </header>
     <main id="main">
